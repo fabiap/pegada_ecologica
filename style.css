@@ -1,0 +1,185 @@
+
+@font-face{
+	font-family: "Nunito";
+	src: url("Nunito-SemiBold.ttf") format("truetype");
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Nutito;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+
+
+}
+a:hover{
+    opacity: 0.7;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+nav{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #8bc34a;
+    height: 8vh;
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+}
+.nav_list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+.mobile_menu{
+    display: none;
+    cursor: pointer;
+}
+.mobile_menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;    
+}
+.header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 15px;
+}
+#h1{
+    font-size: 2rem;
+}
+.cards{
+    margin: 0 auto;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 20px;
+    font-family: sans-serif;
+}
+.card{
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease; /* animação suave */
+    border-radius: 10px;
+    overflow: hidden; /* mantém tudo dentro */
+
+    background: white;   
+}
+.card:hover{
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 45px 100px rgba(0, 0, 0, 0.25);
+}
+.card_img{
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+    height: 200px; 
+    object-fit: cover; 
+
+}
+.card:hover .card_img{
+    transform: scale(1.05);
+}
+.conteudo_card{
+    line-height: 1.5;
+    font-size: 0.9rem;
+    padding: 15px;
+    background: #fafafa;
+    word-wrap: break-word;
+
+    flex: 1;
+}
+.conteudo_card > :first-of-type{
+    margin-top: 0;
+}
+.conteudo_card > :last-of-type{
+    margin-bottom: 0;
+}
+.card_info{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eeeeee;
+    color: #8bc34a;
+    font-size: 0.8rem;
+    border: 2px solid #cccccc;
+}
+.card_info a{
+    color: #65968c;
+}
+.card_info a:hover{
+    text-decoration: underline;
+}
+/* Estrutura principal */
+.index {
+    width: 100%;
+}
+
+/* Containers das seções */
+.secao-container {
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+
+/* Conteúdo interno */
+.conteudo {
+    font-size: 1.1rem;
+    margin-top: 25px;
+    width: 100%;
+    line-height: 1.5;
+    text-align: justify;
+    max-width: 900px;
+    margin: 20px auto;
+}
+/* Cores alternadas */
+.secao {
+    background-color: #f5f5f5;
+}
+
+.secao-verde {
+    background-color: #e8f5e9;
+}
+#primeiro-titulo{
+    text-align: center;
+}
+#segundo-titulo{
+    text-align: center;
+}
+#terceiro-titulo{
+    text-align: center;
+}
+#dic{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#pzinho{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#dica_b{
+    background-color: #e8f5e9;
+}
