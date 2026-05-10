@@ -36,6 +36,10 @@ nav{
     background: #8bc34a;
     height: 8vh;
 }
+#navbarNavDropdown{
+    background-color: #8bc34a;
+    border-radius: 5px;
+}
 
 .nav_list{
     list-style: none;
