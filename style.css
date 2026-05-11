@@ -1,7 +1,3 @@
-@font-face{
-	font-family: "Nunito";
-	src: url("Nunito-SemiBold.ttf") format("truetype");
-}
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -12,9 +8,7 @@
 *{
     margin: 0;
     padding: 0;
-}
-body{
-    font-family: "Nutito";
+    
 }
 a{
     text-decoration: none;
@@ -34,7 +28,10 @@ nav{
     justify-content: space-around;
     align-items: center;
     background: #8bc34a;
-    height: 8vh;
+    height: 7vh;
+}
+.nav-item{
+    font-size: 19px;
 }
 #navbarNavDropdown{
     background-color: #8bc34a;
@@ -49,11 +46,11 @@ nav{
     letter-spacing: 3px;
     margin-left: 32px;
 }
-
 .header {
     background-color: #2e7d32;
     color: white;
     padding: 15px;
+    font-family: "cause", sans-serif;
 }
 #h1{
     font-size: 2rem;
@@ -130,13 +127,15 @@ nav{
 
 /* Conteúdo interno */
 .conteudo {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-top: 25px;
     width: 100%;
     line-height: 1.5;
     text-align: justify;
     max-width: 900px;
     margin: 20px auto;
+    font-family: "nunito sans", sans-serif;
+
 }
 /* Cores alternadas */
 .secao {
@@ -148,12 +147,15 @@ nav{
 }
 #primeiro-titulo{
     text-align: center;
+    font-family: "nunito", sans-serif;
 }
 #segundo-titulo{
     text-align: center;
+    font-family: "nunito", sans-serif;
 }
 #terceiro-titulo{
     text-align: center;
+    font-family: "nunito", sans-serif;
 }
 #dic{
     font-size: 2rem;
