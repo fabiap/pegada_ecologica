@@ -8,7 +8,6 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 a{
     text-decoration: none;
@@ -23,21 +22,20 @@ a:hover{
     letter-spacing: 4px;
 }
 nav{
-    color: #fff;
+    color: #e8f5e9;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: #8bc34a;
-    height: 7vh;
+    height: 6.5vh;
 }
 .nav-item{
-    font-size: 19px;
+    font-size: 20px;
 }
 #navbarNavDropdown{
     background-color: #8bc34a;
     border-radius: 5px;
 }
-
 .nav_list{
     list-style: none;
     display: flex;
@@ -66,10 +64,9 @@ nav{
 }
 .card{
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease; /* animação suave */
+    transition: all 0.3s ease;
     border-radius: 10px;
-    overflow: hidden; /* mantém tudo dentro */
-
+    overflow: hidden; 
     background: white;   
 }
 .card:hover{
@@ -146,35 +143,41 @@ nav{
     background-color: #e8f5e9;
 }
 #primeiro-titulo{
+    font-size: 2.3rem;
     text-align: center;
     font-family: "nunito", sans-serif;
 }
 #segundo-titulo{
+    font-size: 2.3rem;
     text-align: center;
     font-family: "nunito", sans-serif;
 }
 #terceiro-titulo{
+    font-size: 2.3rem;
     text-align: center;
     font-family: "nunito", sans-serif;
 }
 #dic{
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-align: center;
     margin-top: 1rem;
+    font-family: "nunito sans", sans-serif;
+    margin-bottom: 10px;
 }
 #pzinho{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-top: 10px;
     width: 100%;
     line-height: 1.5;
     text-align: justify;
     max-width: 900px;
     margin: 20px auto;
+    font-family: "nunito sans", sans-serif;
 }
 #dica_b{
     background-color: #e8f5e9;
 }
 .dic2{
     width: 100%;
-    padding: 20px;
+    padding: 5px;
 }
