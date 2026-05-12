@@ -27,7 +27,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     background: #8bc34a;
-    height: 6.5vh;
+    height: 7vh;
 }
 .nav-item{
     font-size: 20px;
@@ -64,9 +64,10 @@ nav{
 }
 .card{
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; /* animação suave */
     border-radius: 10px;
-    overflow: hidden; 
+    overflow: hidden; /* mantém tudo dentro */
+
     background: white;   
 }
 .card:hover{
@@ -124,7 +125,7 @@ nav{
 
 /* Conteúdo interno */
 .conteudo {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-top: 25px;
     width: 100%;
     line-height: 1.5;
@@ -133,6 +134,20 @@ nav{
     margin: 20px auto;
     font-family: "nunito sans", sans-serif;
 
+}
+@media (max-width: 767px) {
+    .conteudo{
+        font-size: 1.2rem;
+    }
+    #primeiro-titulo{
+        font-size: 1.2rem;
+    }
+    #segundo-titulo{
+        font-size: 1.2rem;
+    }
+    #primeiro-titulo{
+        font-size: 1.2rem;
+    }
 }
 /* Cores alternadas */
 .secao {
@@ -143,17 +158,17 @@ nav{
     background-color: #e8f5e9;
 }
 #primeiro-titulo{
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     text-align: center;
     font-family: "nunito", sans-serif;
 }
 #segundo-titulo{
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     text-align: center;
     font-family: "nunito", sans-serif;
 }
 #terceiro-titulo{
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     text-align: center;
     font-family: "nunito", sans-serif;
 }
