@@ -57,16 +57,16 @@ nav{
     margin: 0 auto;
     max-width: 900px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));/*define a largura dos containers e o container se alarga conforme o tamanho da tela*/
     gap: 20px;
     font-family: sans-serif;
     margin-bottom: 2rem;
 }
 .card{
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease; /* animação suave */
+    transition: all 0.3s ease;
     border-radius: 10px;
-    overflow: hidden; /* mantém tudo dentro */
+    overflow: hidden; 
 
     background: white;   
 }
@@ -110,18 +110,18 @@ nav{
 .card_info a:hover{
     text-decoration: underline;
 }
-/* Estrutura principal */
+/*Estrutura principal*/
 .index {
     width: 100%;
 }
 
-/* Containers das seções */
+/*Containers das seções*/
 .secao-container {
     width: 100%;
     padding: 40px;
     box-sizing: border-box;
 }
-/* Conteúdo interno */
+/*Conteúdo interno*/
 .conteudo {
     font-size: 1.2rem;
     margin-top: 25px;
@@ -132,7 +132,7 @@ nav{
     margin: 20px auto;
     font-family: "nunito sans", sans-serif;
 
-}/* Cores alternadas */
+}/*Cores alternadas*/
 .secao {
     background-color: #f5f5f5;
 }
